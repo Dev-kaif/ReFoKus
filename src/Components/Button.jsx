@@ -1,10 +1,10 @@
 import React from 'react';
 import { IoIosReturnRight } from "react-icons/io";
 
-function Button() {
+function Button({text}) {
   return (
-    <div className='min-w-32 px-3 py-2 bg-zinc-100 text-black rounded-full flex items-center justify-between'>
-        <span className='text-sm font-medium'>Get Started</span>
+    <div className='w-32 px-3 py-2 gap-1 bg-zinc-100 text-black rounded-full flex items-center justify-between'>
+        <span className='text-sm font-medium'>{text}</span>
         <IoIosReturnRight />
     </div>
   )
