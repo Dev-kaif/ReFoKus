@@ -1,6 +1,7 @@
 import Navbar from './Components/Navbar.jsx';
 import Work from './Components/Work.jsx';
 import Stripes from './Components/Stripes.jsx'
+import Products from './Components/Products.jsx';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar/>
       <Work/>
       <Stripes/>
+      <Products/>
     </div>
   )
 }
