@@ -48,7 +48,7 @@ function Marcees() {
   ];
   return (
     <div className=" mt-20 py-20">
-      {images.map((image, i) =><Marqee key={i} imagesUrl={image} />)}
+      {images.map((image, i) =><Marqee key={i} direction={i === 0 ? "left" : "right"} imagesUrl={image} />)}
     </div>
   );
 }
