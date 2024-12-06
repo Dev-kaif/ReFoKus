@@ -1,15 +1,16 @@
 import React from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import { motion } from "framer-motion"
 
 function Card({ width, render }) {
   return (
-    <div className={` bg-zinc-800 p-5 rounded-xl ${width} min-h-[30rem] flex flex-col ${render? "hover:bg-violet-600":""}  justify-between`}>
+    <motion.div whileHover={{ padding: "25px" }} className={` bg-zinc-800 p-5 rounded-xl ${width} min-h-[30rem] flex flex-col ${render? "hover:bg-violet-600":""}  justify-between`}>
       <div className="w-full">
         <div className="w-full flex justify-between items-center">
           <h3 className="text-sm">{render? ("Get In Touch"):("Up Next: News")}</h3>
           <IoIosArrowRoundForward />
         </div>
-        <h1 className="text-4xl font-medium mt-5">
+        <h1 className="text-3xl font-medium mt-5">
             {render? ("Let's get to it, together."):('Insights and behind the scenes')}
   
         </h1>
@@ -30,7 +31,7 @@ function Card({ width, render }) {
           </p>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 }
 
