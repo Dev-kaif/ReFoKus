@@ -17,7 +17,7 @@ function Card({ width, render }) {
       <div className="w-full">
         {render ? (
           <>
-            <h1 className="text-6xl font-semibold tracking-tight leading-none">
+            <h1 className="text-8xl font-semibold tracking-tight leading-none">
               Start Project
             </h1>
             <button className="mt-5 py-2 px-5 rounded-full border-[1px] border-zinc-50">

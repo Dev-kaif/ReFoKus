@@ -4,6 +4,7 @@ import Stripes from './Components/Stripes.jsx'
 import Products from './Components/Products.jsx';
 import Marqees from './Components/Marqees.jsx';
 import Cards from './Components/Cards.jsx';
+import Footer from './Components/Footer.jsx';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Products/>
       <Marqees/>
       <Cards/>
-      
+      <Footer/>
     </div>
   )
 }
