@@ -3,6 +3,7 @@ import Work from './Components/Work.jsx';
 import Stripes from './Components/Stripes.jsx'
 import Products from './Components/Products.jsx';
 import Marqees from './Components/Marqees.jsx';
+import Cards from './Components/Cards.jsx';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Stripes/>
       <Products/>
       <Marqees/>
+      <Cards/>
+      
     </div>
   )
 }
