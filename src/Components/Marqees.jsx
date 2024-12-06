@@ -47,7 +47,7 @@ function Marcees() {
     ],
   ];
   return (
-    <div className="h-screen mt-20 py-20">
+    <div className=" mt-20 py-20">
       {images.map((image, i) =><Marqee key={i} imagesUrl={image} />)}
     </div>
   );
