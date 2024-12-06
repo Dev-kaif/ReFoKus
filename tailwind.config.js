@@ -1,12 +1,13 @@
-// tailwind.config.js
-module.exports = {
+/** @type {import('tailwindcss').Config} */
+export default {
   content: [
-    "./src/**/*.{html,js,jsx,ts,tsx}", // Make sure to include all relevant files
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       fontFamily: {
-        satoshi: ['Satoshi', 'sans-serif'], // Add the custom font here
+        satoshi: ['Satoshi', 'sans-serif'], 
       },
     },
   },
