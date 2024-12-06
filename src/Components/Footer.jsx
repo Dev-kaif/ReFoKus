@@ -5,7 +5,10 @@ function Footer() {
     <div className='w-full'>
         <div className='max-w-screen-xl  mx-auto py-10 flex gap-32'>
             <div className='basis-1/2'>
-                <h1 className='text-[12rem] font-semibold leading-none tracking-tight'>refoKus.</h1>
+                <h1 className='text-[12rem] font-semibold leading-none tracking-tight mb-2'>refoKus.</h1>
+                <div className='flex gap-10'>
+                    {["Privacy Policy","Cookie Policy","Impressum","Terms"].map((item,i)=><h3 className='text-zinc-500' key={i}>{item}</h3>)}
+                </div>
             </div>
             <div className='basis-1/2 flex justify-between gap-10 text-base font-medium'>
                 <div className='flex gap-10'>
