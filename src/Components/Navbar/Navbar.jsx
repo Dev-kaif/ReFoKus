@@ -1,5 +1,5 @@
 import React from "react";
-import Button from './Button'
+import Button from "../Button/Button";
 
 function Navbar() {
   return (
@@ -26,7 +26,7 @@ function Navbar() {
           ))}
         </div>
       </div>
-        <Button text={"Get Started"}/>
+      <Button text={"Get Started"} />
     </div>
   );
 }
