@@ -11,6 +11,6 @@ A clone of the **Refokus website**, showcasing minor interactions and animations
 ## 🛠️ Built With
 
 - **React**: For building the dynamic UI.
-- **CSS**: For styling and animations.
-- **React Animation Libraries**: To add smooth and eye-catching animations.
-
+- **Tailwind CSS**: For styling and animations.
+- **Frammer Motion Animation Libraries**: To add smooth and eye-catching animations.
+- **Lenis for smoother scroll** : To add smooth and buttery scrolling in website 
